@@ -11,11 +11,10 @@ for loop in range(runs):
 print(counters)
 counters2 = counters
 highest = []
-while len(highest) <=5:
+while len(highest) <= 4:
 	most=max(counters2)
-	print(most)
-	for i in range(50):
-		if (counters2[i] == most) and (len(highest) <= 5):
+		for i in range(50):
+		if (counters2[i] == most) and (len(highest) <= 4):
 			highest.append(i + 1)
 			counters2[i] *= -1
 print(highest)
