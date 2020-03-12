@@ -9,6 +9,9 @@ for loop in range(runs):
 			lucky[pos] = ball
 			counters[ball - 1] += 1
 print(counters)
+
+# comment
+
 counters2 = counters
 highest = []
 while len(highest) <= 4:
